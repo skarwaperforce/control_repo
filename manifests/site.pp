@@ -1,6 +1,6 @@
 node default {
 }
-node 'puppet' {
+node 'ubuntu2204.perforce.com' {
   include role::master_server
 }
 node /^web/ {
